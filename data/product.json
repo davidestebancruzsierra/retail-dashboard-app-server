@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "name": "Bandeja Paisa",
+    "type": "Food & Restaurants",
+    "price": 25,
+    "group": "food",
+    "images": [
+      "/assets/products/bandejapaisa.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A traditional Colombian dish from the Antioquia region, featuring a generous combination of red beans, white rice, ground beef, crispy pork belly (chicharrón), fried egg, sweet plantain, avocado, and arepa. A hearty and flavorful meal that represents the richness of Colombian cuisine.",
+    "stock": 20,
+    "reviews": []
+  },
+  {
+    "id": 2,
+    "name": "Arepas",
+    "type": "Food & Restaurants",
+    "price": 8,
+    "group": "food",
+    "images": [
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-17.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A traditional Colombian staple made from corn dough, lightly grilled until golden on the outside and soft on the inside. Simple, versatile, and perfect to enjoy on their own or filled with cheese, meat, or other savory toppings.",
+    "stock": 20,
+    "reviews": []
+  },
+  {
+    "id": 3,
+    "name": "Ajiaco",
+    "type": "Food & Restaurants",
+    "price": 30,
+    "group": "food",
+    "images": [
+      "/assets/products/ajiaco.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A traditional Colombian soup from Bogotá, made with chicken, corn on the cob, and a blend of native potatoes, slow-cooked to create a rich and comforting flavor. Served with capers, cream, and avocado, this iconic dish is perfect for a warm and satisfying meal.",
+    "stock": 16,
+    "reviews": []
+  },
+  {
+    "id": 4,
+    "name": "Fried Fish",
+    "type": "Food & Restaurants",
+    "price": 15,
+    "group": "food",
+    "images": [
+      "/assets/products/friedfish.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A classic Colombian coastal dish featuring whole fish marinated with spices and fried until golden and crispy. Traditionally served with coconut rice, fried plantains, and fresh salad for a flavorful and satisfying meal.",
+    "stock": 30,
+    "reviews": []
+  },
+  {
+    "id": 5,
+    "name": "Shrimp Ceviche",
+    "type": "Food & Restaurants",
+    "price": 30,
+    "group": "food",
+    "images": [
+      "/assets/products/ceviche.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A refreshing Latin American dish made with tender shrimp marinated in fresh lime juice, mixed with onions, cilantro, and tomato. Light, zesty, and full of flavor, perfect as an appetizer or a light meal.",
+    "stock": 30,
+    "reviews": []
+  },
+  {
+    "id": 6,
+    "name": "Bean Casserole",
+    "type": "Food & Restaurants",
+    "price": 25,
+    "group": "food",
+    "images": [
+      "/assets/products/beancasserole.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A traditional Colombian dish made with slow-cooked beans blended into a creamy, savory stew, prepared with pork, vegetables, and spices. Rich, hearty, and comforting, it’s a classic taste of home-style Colombian cuisine.",
+    "stock": 30,
+    "reviews": []
+  },
+  {
+    "id": 7,
+    "name": "Multivitamins",
+    "type": "Pharmacy & Wellness",
+    "price": 25,
+    "group": "pharmacy",
+    "images": [
+      "/assets/products/Multivitamins.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A balanced blend of essential vitamins and minerals designed to support overall health, energy, and immune system function. Ideal for daily use to help maintain wellness and nutritional balance.",
+    "stock": 30,
+    "reviews": []
+  }
+]

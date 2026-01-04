@@ -1,0 +1,25 @@
+{
+  "name": "retail-dashboard-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidestebancruzsierra/retail-dashboard-app-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidestebancruzsierra/retail-dashboard-app-server/issues"
+  },
+  "homepage": "https://github.com/davidestebancruzsierra/retail-dashboard-app-server#readme",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
