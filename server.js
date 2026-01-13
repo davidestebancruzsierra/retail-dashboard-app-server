@@ -138,3 +138,106 @@ app.post("/api/products/:id", (req, res) => {
     product: updatedProduct,
   });
 });
+
+//Delete path//
+app.delete("/api/products/:id", (req, res) => {
+  let products = readProducts();
+  const productIndex = products.findIndex((p) => p.id == req.params.id);
+
+  if (productIndex === -1) {
+    return res.status(404).json({
+      message: "Product not found",
+    });
+  }
+  const deleteProduct = products[productIndex];
+  products.splice(productIndex, 1);
+  writeProducts(products);
+
+  res.json({
+    message: "Product deleted successfully!",
+    product: deleteProduct,
+  });
+});
+
+//path to add product review//
+app.post("/api/products/:id/reviews", (req, res) => {
+  const { rating, comment } = req.body;
+  if (!rating || !comment) {
+    return res.status(404).json({ message: "Rating and comment required" });
+  }
+  let products = readProducts();
+  const product = products.find((p) => p.id == req.params.id);
+
+  if (!product) {
+    return res.status(404).json({ message: "Product not found" });
+  }
+
+  product.reviews.push({
+    rating: Number(rating),
+    comment,
+    createdAt: new Date().toISOString(),
+  });
+});
+
+writeProducts(products);
+
+res.status(201).json({
+  message: "Review added successfully!",
+  review: { rating, comment },
+});
+
+//path to proccess purchase//
+app.post("/api/cart/checkout", (req, res) => {
+  const { cart, total } = req.body;
+  if (!cart || cart.length === 0) {
+    return res.status(400).json({ message: "Empty cart" });
+  }
+
+  let products = readProducts();
+  let allInStock = true;
+  let updatedProducts = [...products];
+
+  //Verify Stock//
+  cart.forEach((cartItem) => {
+    const product = updatedProducts.find((p) => p.id === cartItem.id);
+    if (!product || product.stock < cartItem.quantify) {
+      allInStock = false;
+    }
+  });
+
+  if (!allInStock) {
+    return res.status(400).json({
+      message: "One or more products do not have enough stock",
+      success: false,
+    });
+  }
+
+  // take away stock//
+  cart.forEach((cartItem) => {
+    const product = updatedProducts.find((p) => p.id === cartItem.id);
+    if (product) {
+      product.stock -= cartItem.quantify;
+    }
+  });
+
+  writeProducts(updatedProducts);
+
+  // register sales//
+  const sale = {
+    id: "sale_" + Date.now(),
+    cart,
+    total,
+    status: "completed",
+    createdAt: new Date().toISOString(),
+  };
+
+  let sales = readSales();
+  sales.push(sale);
+  writeSales(sales);
+
+  res.json({
+    message: "Purchase made successfully!",
+    success: true,
+    saleId: sale.id,
+  });
+});
