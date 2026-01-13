@@ -117,5 +117,396 @@
     "description": "A balanced blend of essential vitamins and minerals designed to support overall health, energy, and immune system function. Ideal for daily use to help maintain wellness and nutritional balance.",
     "stock": 30,
     "reviews": []
+  },
+  {
+    "id": 8,
+    "name": "Vitanim D",
+    "type": "Pharmacy & Wellness",
+    "price": 20,
+    "group": "pharmacy",
+    "images": [
+      "/assets/products/vitaminD.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "An essential vitamin that supports bone health, aids calcium absorption, and helps strengthen the immune system. Ideal for daily use to maintain strong bones, overall wellness, and immune balance.",
+    "stock": 30,
+    "reviews": []
+  },
+  {
+    "id": 9,
+    "name": "Magnesium",
+    "type": "Pharmacy & Wellness",
+    "price": 30,
+    "group": "pharmacy",
+    "images": [
+      "/assets/products/Magnesium.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "An essential mineral that supports muscle and nerve function, helps maintain healthy bones, and contributes to energy production. Ideal for daily use to promote relaxation, balance, and overall well-being",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 10,
+    "name": "Collagen",
+    "type": "Pharmacy & Wellness",
+    "price": 50,
+    "group": "pharmacy",
+    "images": [
+      "/assets/products/collagen.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "An essential protein that supports healthy skin, hair, nails, and joints. Ideal for daily use to help maintain elasticity, strength, and overall well-being.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 11,
+    "name": "Probiotics",
+    "type": "Pharmacy & Wellness",
+    "price": 25,
+    "group": "pharmacy",
+    "images": [
+      "/assets/products/probiotics.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Beneficial live microorganisms that support digestive health, improve gut balance, and help strengthen the immune system. Ideal for daily use to promote overall wellness and digestion.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 12,
+    "name": "Melatonin",
+    "type": "Pharmacy & Wellness",
+    "price": 30,
+    "group": "pharmacy",
+    "images": [
+      "/assets/products/Melatonin.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A natural hormone that helps regulate the sleep–wake cycle, promoting faster sleep onset and improved sleep quality. Ideal for daily use to support restful and balanced sleep.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 13,
+    "name": "Rice",
+    "type": "Groceries & Drinks",
+    "price": 2,
+    "group": "groceries",
+    "images": [
+      "/assets/products/rice.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A versatile and essential staple, perfectly cooked to achieve a light, fluffy texture. A simple and comforting base that pairs well with a wide variety of dishes.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 14,
+    "name": "Orange",
+    "type": "Groceries & Drinks",
+    "price": 3,
+    "group": "groceries",
+    "images": [
+      "/assets/products/oranges.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A juicy and refreshing citrus fruit with a bright, sweet-tart flavor. Naturally rich in vitamin C, oranges are perfect for boosting freshness, energy, and overall wellness.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 15,
+    "name": "Eggs",
+    "type": "Groceries & Drinks",
+    "price": 6,
+    "group": "groceries",
+    "images": [
+      "/assets/products/eggs.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A versatile and nutritious staple, rich in high-quality protein and essential nutrients. Perfect for breakfast, baking, or everyday meals.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 16,
+    "name": "Tomatoes",
+    "type": "Groceries & Drinks",
+    "price": 3,
+    "group": "groceries",
+    "images": [
+      "/assets/products/tomatoes.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Fresh and juicy tomatoes with a vibrant flavor, perfect for salads, sauces, and everyday cooking. Naturally rich in antioxidants and essential nutrients.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 17,
+    "name": "Strawberries",
+    "type": "Groceries & Drinks",
+    "price": 3,
+    "group": "groceries",
+    "images": [
+      "/assets/products/strawberries.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Sweet and juicy strawberries with a bright red color and fresh aroma. Perfect for desserts, smoothies, or enjoying on their own.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 18,
+    "name": "Bread",
+    "type": "Groceries & Drinks",
+    "price": 3,
+    "group": "groceries",
+    "images": [
+      "/assets/products/bread.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Freshly baked bread with a soft interior and a golden crust. A daily staple perfect for sandwiches, breakfasts, or pairing with any meal.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 19,
+    "name": "Travel-size toiletries",
+    "type": "Travel Essentials",
+    "price": 25,
+    "group": "travel",
+    "images": [
+      "/assets/products/Travel-sizetoiletries.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Compact and convenient personal care essentials designed to meet travel regulations. Perfect for carry-on luggage, offering comfort and freshness on the go.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 20,
+    "name": "Sunscreen",
+    "type": "Travel Essentials",
+    "price": 55,
+    "group": "travel",
+    "images": [
+      "/assets/products/sunscreen.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A protective skincare essential that helps shield the skin from harmful UV rays. Lightweight, easy to apply, and ideal for daily use to maintain healthy, protected skin.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 21,
+    "name": "Hand sanitizer",
+    "type": "Travel Essentials",
+    "price": 16,
+    "group": "travel",
+    "images": [
+      "/assets/products/Handsanitizer.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "A fast-acting hygiene essential that helps eliminate germs without the need for water. Compact, convenient, and ideal for everyday use and travel.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 22,
+    "name": "Pain relievers",
+    "type": "Travel Essentials",
+    "price": 3,
+    "group": "travel",
+    "images": [
+      "/assets/products/Painrelievers.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Effective medications designed to help reduce mild to moderate pain and discomfort. Ideal for headaches, muscle aches, and everyday relief.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 23,
+    "name": "Motion sickness tablets",
+    "type": "Travel Essentials",
+    "price": 3,
+    "group": "travel",
+    "images": [
+      "/assets/products/Motionsicknesstablets.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Fast-acting tablets formulated to help prevent nausea, dizziness, and vomiting caused by travel. Ideal for car, boat, or air journeys.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 24,
+    "name": "Face masks",
+    "type": "Travel Essentials",
+    "price": 3,
+    "group": "travel",
+    "images": [
+      "/assets/products/Facemasks.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Fast-acting tablets formulated to help prevent nausea, dizziness, and vomiting caused by travel. Ideal for car, boat, or air journeys.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 25,
+    "name": "Colombian coffee",
+    "type": "Souvenirs & Drinks",
+    "price": 12,
+    "group": "souvenirs",
+    "images": [
+      "/assets/products/colombiancoffee.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "High-quality coffee made from carefully selected Colombian beans, known for their rich aroma, smooth body, and balanced flavor. Perfect for enjoying a truly authentic coffee experience.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 26,
+    "name": "Traditional candies",
+    "type": "Souvenirs & Drinks",
+    "price": 5,
+    "group": "souvenirs",
+    "images": [
+      "/assets/products/traditionalcandies.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Sweet treats crafted using classic recipes and authentic flavors. Perfect for enjoying a nostalgic taste of tradition and delight.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 27,
+    "name": "Keychains or magnets",
+    "type": "Souvenirs & Drinks",
+    "price": 7,
+    "group": "souvenirs",
+    "images": [
+      "/assets/products/Keychains or magnets.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Fun and collectible souvenirs that capture local charm. Perfect for decorating your space or keeping memories close wherever you go.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 28,
+    "name": "Local snacks",
+    "type": "Souvenirs & Drinks",
+    "price": 3,
+    "group": "souvenirs",
+    "images": [
+      "/assets/products/Local snacks.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Tasty treats made from regional ingredients, offering a true flavor of the local culture. Perfect for snacking or sharing with friends and family.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 29,
+    "name": "Handmade souvenirs",
+    "type": "Souvenirs & Drinks",
+    "price": 20,
+    "group": "souvenirs",
+    "images": [
+      "/assets/products/Handmade souvenirs.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Unique, handcrafted items that showcase local artistry and culture. Perfect for keeping memories or gifting a special piece of tradition.",
+    "stock": 40,
+    "reviews": []
+  },
+  {
+    "id": 30,
+    "name": "Colombian soft drinks",
+    "type": "Souvenirs & Drinks",
+    "price": 3,
+    "group": "souvenirs",
+    "images": [
+      "/assets/products/Colombian soft drinks.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-8-e1687985707195.jpg",
+      "https://luxmood.ca/wp-content/uploads/2023/06/Luxmood-Puffy-6.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Puffy-sofa-set.jpg",
+      "https://luxmood.ca/wp-content/uploads/2022/08/Luxmood-Furniture-Puffy-7-e1666027112775.jpg"
+    ],
+    "description": "Refreshing beverages with unique local flavors, perfect for quenching your thirst and enjoying a taste of Colombia.",
+    "stock": 40,
+    "reviews": []
   }
 ]
