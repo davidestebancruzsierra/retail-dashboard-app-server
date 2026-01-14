@@ -1,5 +1,5 @@
 const express = require("express");
-const bodyParcer = require("body-parcer");
+const bodyParser = require("body-parser");
 const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
@@ -8,7 +8,7 @@ const PORT = 3000;
 const PRODUCTS_FILE = path.join(__dirname, "data", "products.json");
 const SALES_FILE = path.join(__dirname, "data", "sales.json");
 app.use(cors());
-app.use(bodyParcer.json());
+app.use(bodyParser.json());
 // assist functions//
 //function to read products//
 const readProducts = () => {
@@ -177,13 +177,12 @@ app.post("/api/products/:id/reviews", (req, res) => {
     comment,
     createdAt: new Date().toISOString(),
   });
-});
+  writeProducts(products);
 
-writeProducts(products);
-
-res.status(201).json({
-  message: "Review added successfully!",
-  review: { rating, comment },
+  res.status(201).json({
+    message: "Review added successfully!",
+    review: { rating, comment },
+  });
 });
 
 //path to proccess purchase//
