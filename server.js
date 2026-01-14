@@ -74,9 +74,12 @@ app.get("/api/products/:id", (req, res) => {
       message: "Product not found",
     });
   }
-  const totalRating = p.reviews.reduce((acc, r) => acc + Number(r.Rating), 0);
+  const totalRating = product.reviews.reduce(
+    (acc, r) => acc + Number(r.Rating),
+    0
+  );
   const avgRating =
-    p.reviews > 0 ? (totalRating / p.reviews.lenght).toFixed(1) : 0;
+    product.reviews > 0 ? (totalRating / product.reviews.lenght).toFixed(1) : 0;
   res.json({
     ...product,
     avgRating,
@@ -348,3 +351,5 @@ app.get("/api/dashboard/stats", (req, res) => {
     },
   });
 });
+
+app.listen(PORT, () => {});
