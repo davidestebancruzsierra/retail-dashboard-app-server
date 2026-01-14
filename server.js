@@ -241,3 +241,111 @@ app.post("/api/cart/checkout", (req, res) => {
     saleId: sale.id,
   });
 });
+
+//to get product per category//
+app.get("/api/products/category/:group", (req, res) => {
+  const products = readProducts();
+  const filtered = products.filter((p) => p.group === req.params.group);
+
+  const productsWithStats = filtered.map((p) => {
+    const totalRating = p.reviews.reduce((acc, r) => acc + Number(r.rating), 0);
+    const avgRating =
+      p.reviews.lenght > 0 ? (totalRating / p.reviews.length).toFixed(1) : 0;
+    return { ...p, avgRating };
+  });
+
+  res.json(productsWithStats);
+});
+
+//To search products//
+app.get("/api/search", (req, res) => {
+  const query = req.query.q?.toLowerCase() || "";
+  const products = readProducts();
+
+  const results = products.filter(
+    (p) =>
+      p.name.toLowerCase().includes(query) ||
+      p.description.toLowerCase().includes(query) ||
+      p.type.toLowerCase().includes(query)
+  );
+
+  const productsWithStats = results.map((p) => {
+    const totalRating = p.reviews.reduce((acc, r) => acc + Number(r.rating), 0);
+    const avgRating =
+      p.reviews.length > 0 ? (totalRating / p.reviews.length).toFixed(1) : 0;
+    return { ...p, avgRating };
+  });
+  res.json(productsWithStats);
+});
+
+//to get stats for dashboard//
+app.get("/api/dashboard/stats", (req, res) => {
+  const products = readProducts();
+  const sales = readSales();
+  //Stock Stats//
+  const stockData = products.map((p) => ({
+    name: p.name,
+    stock: p.stock,
+  }));
+
+  //Sales Stats//
+  let totalSales = 0;
+  let totalRevenue = 0;
+  const salesByProduct = {};
+
+  sales.forEach((s) => {
+    totalSales++;
+    totalRevenue += s.total;
+
+    s.cart.forEach((item) => {
+      if (!salesByProduct[item.id]) {
+        salesByProduct[item.id] = 0;
+      }
+      salesByProduct[item.id] += item.quantity;
+    });
+  });
+
+  //Reviews//
+  const keywords = {
+    positive: ["great", "good", "excellent", "gorgeous", "amazing", "awesone"],
+    negative: ["bad", "disappointed", "horrible", "awful", "horrific"],
+    positiveCount: 0,
+    negativeCount: 0,
+  };
+  products.forEach((p) => {
+    p.reviews.forEach((r) => {
+      const comment = r.comment.toLowerCase();
+      if (keywords.positive.some((word) => comment.includes(word))) {
+        keywords.positiveCount++;
+      }
+      if (keywords.negative.some((word) => comment.includes(word))) {
+        keywords.negativeCount++;
+      }
+    });
+  });
+
+  //reviews average//
+  let totalRating = 0;
+  let totalReviews = 0;
+  products.forEach((p) => {
+    p.reviews.forEach((r) => {
+      totalRating += Number(r.rating);
+      totalReviews++;
+    });
+  });
+  const avgRating =
+    totalReviews > 0 ? (totalRating / totalReviews).toFixed(2) : 0;
+
+  res.json({
+    totalProducts: products.length,
+    totalSales,
+    totalRevenue,
+    averageRating: avgRating,
+    stockData,
+    salesByProduct,
+    keywordAnalysis: {
+      positiveComments: keywords.positiveCount,
+      negativeComments: keywords.negativeCount,
+    },
+  });
+});
