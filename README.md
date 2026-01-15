@@ -64,6 +64,10 @@ GET /api/dashboard/stats
 
 Retrieves general statistics for the website.
 
+✨ Author
+
+David Cruz
+Web design, development & brand concept
 ✅ Notes
 
 All endpoints return responses in JSON format.
